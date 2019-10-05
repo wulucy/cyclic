@@ -1,2 +1,2 @@
-# cyclic
-Tools for working with permutations.
+# Permutation groups
+Tools for working with permutation groups.
