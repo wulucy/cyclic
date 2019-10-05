@@ -1,4 +1,21 @@
 def compute_perm(perm_list, elements):
+	"""
+	Simplifies permutations written in cyclic
+	notation.
+
+	Args:
+		perm_list (list): List of integers or strings representing
+			permutations in cyclic notation. For example, 
+			(12)(34) = [12, 34].
+		elements (list): List of elements that are eligible for
+			inclusion in a permutation. For example, elements
+			for S_4 would be [1, 2, 3, 4].
+	
+	Returns:
+		perm_dict (dict): Dictionary keyed by element with values
+			indicating where the element will be sent by the
+			resulting permutation.
+	"""
 
     perm_list = [str(x) for x in perm_list]
     elements = [str(x) for x in elements]
