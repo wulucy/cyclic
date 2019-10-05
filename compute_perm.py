@@ -12,7 +12,7 @@ def compute_perm(perm_list, elements):
 			for S_4 would be [1, 2, 3, 4].
 	
 	Returns:
-		perm_dict (dict): Dictionary keyed by element with values
+		perm_dict (dict): Dictionary keyed by element, with values
 			indicating where the element will be sent by the
 			resulting permutation.
 	"""
